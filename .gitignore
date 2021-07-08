@@ -1,5 +1,7 @@
 node_modules
 src
+task
 gulpfile.js
 package.json
 package-lock.json
+.gitignore
