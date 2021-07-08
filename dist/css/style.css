@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&display=swap");
+/* colors */
+/* clearBoth */
+/* breakpoints */
+/* breakpoints */
+/* font */
+/* MRT color */
+body {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  zoom: 1; }
+  body:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0; }
+
+* {
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 24px;
+  margin: 40px; }
+
+#map {
+  width: 100vw;
+  height: 100vh; }
+
+.rightColumn {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.moveBtn {
+  display: inline-block;
+  margin: 40px; }
